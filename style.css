@@ -1,0 +1,114 @@
+/* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
+header {
+    background-color: #6A040F;
+    color: white;
+    padding: 128px 16px;
+    margin: 0px;
+    border:6px dashed #6A040F;
+    border-radius: 15px;
+}
+@font-face {
+    font-family: glacial-indifference;
+    src: url(/Users/maramalashi/Documents/glacial-indifference/GlacialIndifference-Regular.otf);
+}
+h1 {
+    font-family: glacial-indifference;
+    text-align: center;
+}
+header {
+    font-size: 50px;
+}
+.card {
+    font-family: glacial-indifference;
+    border: 6px solid #6A040F;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 5px;
+}
+.card-title {
+    font-size: 20px;
+}
+.card-img-top {
+    padding-left:10%;
+    width: 225px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+    border:4px solid #6A040F;
+    border-radius: 15px
+    
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #6A040F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: glacial-indifference;
+}
+body {
+    background-color: #ffffff;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#borderimg {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://i0.wp.com/www.davidbernie.com/wp-content/uploads/2023/11/David-Bernie-Print-Free-Palestine-Keffiyeh-Pattern-I-Close-1.jpg?resize=1024%2C640&ssl=1) 30 round;
+  }
+  div.scroll-container {
+    background-color: #6A040F;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+    width: 400px;
+  }
+  .info {
+    font-size: 25px;
+  }
+  .infoo {
+    font-size: 30px;
+  }
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container2 {
+    padding: 5px 16px;
+  }
+  .card2 {
+    font-family: glacial-indifference;
+    font-size: 20px;
+    border: 6px solid #6A040F;
+  }
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px; /* 5px rounded corners */
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
